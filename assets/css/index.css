@@ -9,6 +9,14 @@ img{
     width: 200px;
 }
 
+.card{
+    margin-bottom: 50px;
+}
+
+.card-title{
+    background-color: #979797;
+}
+
 .workmate-photo{
     border-radius: 500px;
     cursor:default;
@@ -24,6 +32,18 @@ img{
     filter: grayscale(50%);
 }
 
+i{
+    scale: 2.0;
+}
+
+.followers{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    gap: 10px;
+    align-items: center;
+}
+
 #repository  h3{
     font-size: 1.2rem;
     color: rgb(0, 150, 232);
@@ -34,9 +54,19 @@ img{
     gap: 1rem;
 }
 
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: max-content;
+}
+
 .topic{
     display: flex;
-    
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    flex-wrap: wrap;
     background-color: rgb(0, 150, 232);
     color: white;
     border-radius: 25px;
@@ -44,6 +74,23 @@ img{
     padding-right: 10px;
     margin-left: 10px;
 }
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.none{
+    display: none;
+}
+
 
 @media screen and (max-width: 600px) {
     .items{

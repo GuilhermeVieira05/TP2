@@ -1,0 +1,57 @@
+.repo-name{
+    text-align: center;
+}
+
+.subtitle{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.subtitle p{
+    margin-left: 1rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+.repo-name {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.description, .releasedDate, .languages, .url {
+    margin-bottom: 20px;
+}
+.items {
+    list-style: none;
+    padding: 0;
+}
+.items li {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 7px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.items li:hover {
+    background-color: #0056b3;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

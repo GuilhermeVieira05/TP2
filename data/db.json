@@ -1,5 +1,37 @@
 {
     "workmates":[
         
+    ],
+    "carrousel":[
+        {
+            "title": "",
+            "description": "",
+            "img": "",
+            "url": ""
+        },
+        {
+            "title": "",
+            "description": "",
+            "img": "",
+            "url": ""
+        },
+        {
+            "title": "",
+            "description": "",
+            "img": "",
+            "url": ""
+        },
+        {
+            "title": "",
+            "description": "",
+            "img": "",
+            "url": ""
+        },
+        {
+            "title": "",
+            "description": "",
+            "img": "",
+            "url": ""
+        }
     ]
 }

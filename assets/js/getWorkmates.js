@@ -24,6 +24,6 @@ async function getWorkamtes(){
     
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    //alert("Por favor, abra o JSONServer!")
+    alert("Por favor, abra o JSONServer!")
     getWorkamtes()
 })

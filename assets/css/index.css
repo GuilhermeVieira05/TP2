@@ -9,6 +9,10 @@ img{
     width: 200px;
 }
 
+.carousel-img{
+    max-height: 700px;
+}
+
 .card{
     margin-bottom: 50px;
 }
@@ -38,6 +42,8 @@ img{
 .photos{
     display: flex;
     flex-direction: row;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .workmate-photo{
@@ -76,11 +82,12 @@ i{
 .card {
     height: 25rem;
     box-shadow: 2px 3px 8px black;
+    transition: ease-in 0.4s;
 }
 
 .card:hover{
     scale: 1.05;
-    transition: ease-in 0.2s;
+    transition: ease-in 0.4s;
 }
 
 .card a{

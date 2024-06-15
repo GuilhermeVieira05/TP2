@@ -16,7 +16,7 @@ async function getRepo(){
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title">${item.name.toUpperCase()}</h5>
-                    <p class="card-text">${item.description}</p>
+                    <p class="card-text">${item.description || "Sem descrição"}</p>
                     <p class="card-text">${Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))}</p>
                     <div class="card-items">
                     <p class="card-fork"><i class="fa-solid fa-code-fork"></i>${item.forks_count}</p>

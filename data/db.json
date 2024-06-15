@@ -171,36 +171,36 @@
             "updated_at": "2024-05-22T12:30:53Z"
           }
     ],
-    "carrousel":[
+    "carousel":[
         {
-            "title": "",
-            "description": "",
-            "img": "",
-            "url": ""
+            "title": "Curso em Vídeo",
+            "description": "Site de cursos gratuitos de programação, inclusive Front-End.",
+            "img": "../assets/imgs/cursoEmVideo.png",
+            "url": "https://www.cursoemvideo.com"
         },
         {
-            "title": "",
-            "description": "",
-            "img": "",
-            "url": ""
+            "title": "Site Sealabrate",
+            "description": "Site feito apenas com CSS, para aprender algumas das técnicas de estilização",
+            "img": "../assets/imgs/site.png",
+            "url": "https://github.com/V131R4/siteSealabrate"
         },
         {
-            "title": "",
-            "description": "",
-            "img": "",
-            "url": ""
+            "title": "OneBitCode",
+            "description": "Site de cursos online, voltados para programação, incluindo mentorias e auxílios de carreira",
+            "img": "../assets/imgs/oneBitCode.png",
+            "url": "https://pro.onebitcode.com"
         },
         {
-            "title": "",
-            "description": "",
-            "img": "",
-            "url": ""
+            "title": "Steam",
+            "description": "Software que fornece acesso, gratuitos ou pagos, aos mais diversos jogos digitais. ",
+            "img": "../assets/imgs/steam.png",
+            "url": "https://store.steampowered.com/?l=portuguese"
         },
         {
-            "title": "",
-            "description": "",
-            "img": "",
-            "url": ""
+            "title": "LeetCode",
+            "description": "Site para se preparar para entrevistas e listas de exercícios de programação para treinar!",
+            "img": "../assets/imgs/leetcode.png",
+            "url": "https://leetcode.com/problemset/"
         }
     ]
 }

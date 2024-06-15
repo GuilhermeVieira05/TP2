@@ -9,12 +9,19 @@ async function getRepo(){
           data.map(item =>{
               let div = document.createElement("div")
               div.classList.add("col-lg-4")
+              div.classList.add("col-md-6")
+              div.classList.add("col-sm-12")
+              div.classList.add("col-12")
               div.innerHTML = `
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title">${item.name.toUpperCase()}</h5>
                     <p class="card-text">${item.description}</p>
                     <p class="card-text">${Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))}</p>
+                    <div class="card-items">
+                    <p class="card-fork"><i class="fa-solid fa-code-fork"></i>${item.forks_count}</p>
+                    <p class="card-stars"><i class="fa-regular fa-star"></i>${item.stargazers_count}</p>
+                    </div>
                     <a href="repo.html?id=${item.name}" class="btn btn-primary">Acesse</a>
                     <p id="repo_id" class="none">${item.id}
                   </div>

@@ -9,6 +9,7 @@ function getRepoDetails(){
     const languages = document.querySelector(".languages")
     const url = document.querySelector("#url")
     const ul = document.querySelector(".items")
+    const repoInfo = document.querySelector('.repo-info')
 
     if (!repo) {
         console.log(params);
@@ -27,6 +28,10 @@ function getRepoDetails(){
         url.href = repos.html_url
         let topics = repos.topics.map(topic => `<li class="topic">${topic}</li>`).join("")
         ul.innerHTML = topics
+        let str = `<p class="fork"><i class="fa-solid fa-code-fork"></i>${repos.forks_count}</p>
+                   <p class="star"><i class="fa-regular fa-star"></i>${repos.stargazers_count}</p>`
+                   
+        repoInfo.innerHTML += str
     })
 }
 

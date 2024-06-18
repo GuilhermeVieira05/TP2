@@ -20,10 +20,12 @@ async function getWorkamtes(){
             workmates.innerHTML += str;
         }
     })
+    .catch(error =>{
+      alert("Por favor, abra o JSONServer!")
+    })
 }
     
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    alert("Por favor, abra o JSONServer!")
     getWorkamtes()
 })

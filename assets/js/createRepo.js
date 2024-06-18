@@ -15,7 +15,9 @@ async function getRepo(){
               div.innerHTML = `
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
+                    <div class=div__title>
                     <h5 class="card-title">${item.name.toUpperCase()}</h5>
+                    </div>
                     <p class="card-text">${item.description || "Sem descrição"}</p>
                     <p class="card-text">${Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))}</p>
                     <div class="card-items">

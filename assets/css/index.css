@@ -13,13 +13,33 @@ img{
     max-height: 700px;
 }
 
+.carousel-caption h5{
+    color: tomato;   
+    font-size: larger;
+    font-weight: 900;
+}
+
+.carousel-caption p{
+    background-color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+
 .card{
     margin-bottom: 50px;
 }
 
 .card-title{
-    background-color: #979797;
+    background-color: #088db6;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
 }
+
 
 .card-items{
     display: grid;
@@ -52,14 +72,15 @@ img{
 }
 
 .workmate-photo:hover{
-    transform: scale(1.3);
-    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+    transition: ease-in-out .5s;
     border-color: blue;
     cursor: pointer;
 }
 
 .workmate-photo:not(:hover){
-    filter: grayscale(50%);
+    filter: grayscale(45%);
+    transition: ease-in-out .5s;
 }
 
 i{

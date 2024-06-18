@@ -1,4 +1,4 @@
-function showSlides(){
+function showSlides(){      
     const api = `http://localhost:3000/carousel`
     const carousel  = document.querySelector(".carousel-inner")
     fetch(api)
